@@ -525,7 +525,7 @@ class AsyncWeb3(BaseWeb3):
         if not self._subscription_manager:
             self._subscription_manager = SubscriptionManager(self)
         return self._subscription_manager
-
+#test
     @property
     @persistent_connection_provider_method()
     def socket(self) -> PersistentConnection:
